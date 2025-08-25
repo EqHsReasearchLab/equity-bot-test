@@ -1,0 +1,20 @@
+{
+"name": "equity-bot-1",
+"version": "1.0.0",
+"description": "A chatbot that flags potentially inequitable or exclusionary language in documents.",
+"main": "index.js",
+"scripts": {
+  "start": "node api/index.js",
+  "dev": "nodemon api/index.js"
+},
+"author": "eqhsresearch",
+"license": "MIT",
+"dependencies": {
+  "express": "^4.18.2",
+  "cors": "^2.8.5",
+  "body-parser": "^1.20.2"
+},
+"devDependencies": {
+  "nodemon": "^3.0.0"
+  }
+}
