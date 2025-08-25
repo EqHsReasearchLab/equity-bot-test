@@ -1,0 +1,79 @@
+[
+  {
+    "flagged": "mental health terms",
+    "regex": "\\b(schizophrenic|anorexic|depressed|bipolar|addict|crazy|insane|lunatic|mentally ill|psychotic|madman|maniac|retarded|psychopath|suicidal)\\b",
+    "suggestion": "Use person-first, respectful language like 'person living with [condition]' or 'individual experiencing [condition]'.",
+    "note": "Avoid stigmatizing, dehumanizing, or pejorative mental health labels.",
+    "theme": "Mental Health"
+  },
+  {
+    "flagged": "gender identity terms",
+    "regex": "\\b(non[- ]?binary|transgender|cisgender|hermaphrodite|sexual preference|sexual orientation)\\b",
+    "suggestion": "Use affirming, inclusive language like 'they/them' pronouns and 'gender identity' terminology.",
+    "note": "Avoid outdated, dismissive, or inaccurate terms related to gender and sexuality.",
+    "theme": "Gender & Identity"
+  },
+  {
+    "flagged": "disability terms",
+    "regex": "\\b(crippled|handicapped|invalid|lame|wheelchair-bound|deaf and dumb|dumb|retarded|crazy)\\b",
+    "suggestion": "Use person-first, respectful language like 'person with a disability' or 'disabled person (if identity-first preferred)'.",
+    "note": "Avoid ableist, offensive, or outdated language regarding disabilities.",
+    "theme": "Disability Language"
+  },
+  {
+    "flagged": "body size terms",
+    "regex": "\\b(obese|fat|overweight|chubby|skinny|underweight|anorexic|scrawny)\\b",
+    "suggestion": "Use respectful, non-stigmatizing language like 'person living in a larger body' or 'person with low body weight'.",
+    "note": "Avoid stigmatizing or judgmental language about body size or weight.",
+    "theme": "Body Size"
+  },
+  {
+    "flagged": "race and ethnicity microaggressions",
+    "regex": "\\b(you speak English so well|exotic|ghetto|illegal immigrant|oriental|slave|tribal|colored person|foreigner)\\b",
+    "suggestion": "Use respectful, culturally sensitive language and avoid stereotypes or assumptions.",
+    "note": "These phrases can be patronizing, stereotypical, or offensive to racial/ethnic groups.",
+    "theme": "Race & Ethnicity"
+  },
+  {
+    "flagged": "ageism terms",
+    "regex": "\\b(old hag|geezer|senile|over the hill|grandma|grandpa|aged)\\b",
+    "suggestion": "Use respectful language like 'older adult' or 'aging individual'.",
+    "note": "Avoid ageist stereotypes or disrespectful terms for older people.",
+    "theme": "Age & Respect"
+  },
+  {
+    "flagged": "religion and belief",
+    "regex": "\\b(cult|brainwashed|fanatic|zealot|godless|infidel|heathen)\\b",
+    "suggestion": "Use neutral, respectful language when referring to religious beliefs.",
+    "note": "Avoid derogatory or dismissive terms related to religion or belief systems.",
+    "theme": "Religion & Belief"
+  },
+  {
+    "flagged": "family and relationship terms",
+    "regex": "\\b(bastard|illegitimate|spinster|old maid|homewrecker)\\b",
+    "suggestion": "Use neutral, non-judgmental terms for family and relationships.",
+    "note": "Avoid stigmatizing or offensive language related to family status.",
+    "theme": "Family & Relationships"
+  },
+  {
+    "flagged": "gendered language and pronouns",
+    "regex": "\\b(he or she|him or her|his or hers|manpower|man-made|chairman)\\b",
+    "suggestion": "Use gender-neutral terms like 'they/them', 'staff', 'human-made', 'chairperson'.",
+    "note": "Avoid unnecessary gendered language that excludes or stereotypes.",
+    "theme": "Gender & Identity"
+  },
+  {
+    "flagged": "colloquialisms and idioms with problematic origins",
+    "regex": "\\b(turn a blind eye|rule of thumb|sold down the river|blacklist|whitelist)\\b",
+    "suggestion": "Use clear, neutral alternatives to idioms with offensive or exclusionary histories.",
+    "note": "Some common idioms have origins or connotations that can be offensive or exclusionary.",
+    "theme": "General Respect"
+  },
+  {
+    "flagged": "politeness and microaggressions",
+    "regex": "\\b(your English is (so )?good|thank you for sharing your thoughts so clearly|what’s your real name\\??)\\b",
+    "suggestion": "Avoid patronizing comments; ask respectfully for names and recognize communication efforts.",
+    "note": "These phrases can unintentionally alienate or patronize individuals.",
+    "theme": "Racial/Cultural Microaggressions"
+  }
+]
